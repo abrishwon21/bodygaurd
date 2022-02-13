@@ -1,0 +1,55 @@
+table {
+  width: 100%;
+  padding: 2px;
+
+  border-collapse: collapse;
+  width: 100%;
+}
+thead {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  height: 60px;
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+}
+.maintblhead {
+  border-right: 0.5px solid #4b5253;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+th {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  background: #ccc;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+tr {
+  border: 1px solid #ccc;
+}
+td {
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+  font-weight: normal;
+}
+th,
+td {
+  padding: 8px 15px;
+}
+.feature2body {
+  background: rgb(223, 211, 214);
+  border-bottom: 1px solid #ccc !important;
+}
+
+@media only screen and (max-width: 600px) {
+  table {
+    left: 0;
+    margin-left: 0px;
+    overflow-x: scroll;
+    width: 300px;
+  }
+}
